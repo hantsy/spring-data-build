@@ -129,7 +129,7 @@
 		<slf4j>1.7.32</slf4j>
 		<spring>5.3.10</spring>
 		<spring-hateoas>1.4.0-M3</spring-hateoas>
-		<spring-plugin>2.0.0.RELEASE</spring-plugin>
+		<spring-plugin>3.0.0-SNAPSHOT</spring-plugin>
 		<servlet-api>4.0.1</servlet-api>
 		<testcontainers>1.16.0</testcontainers>
 		<validation>1.1.0.Final</validation>
