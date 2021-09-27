@@ -127,7 +127,7 @@
 		<rxjava2>2.2.21</rxjava2>
 		<rxjava3>3.1.1</rxjava3>
 		<slf4j>1.7.32</slf4j>
-		<spring>5.3.10</spring>
+		<spring>6.0.0-SNAPSHOT</spring>
 		<spring-hateoas>1.4.0-M3</spring-hateoas>
 		<spring-plugin>3.0.0-SNAPSHOT</spring-plugin>
 		<servlet-api>4.0.1</servlet-api>
