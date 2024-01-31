@@ -1,0 +1,226 @@
+repo_name: hantsy/spring-data-build
+report_id: 94cc29bdd0069ada179f6f55a796c006
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:36:32+00:00'
+requested_by: hantsy
+provider: github
+branch: main
+detected_tools_count: 17
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hantsy/spring-data-build
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/spring-data-build
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/.github/workflows/project.yml
+  detection_source: ".github/workflows/project.yml"
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-03-22 13:30:13.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2019-10-14 10:38:19.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Jens Schauder
+  last_updated_on: 2021-08-11 15:34:38.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-10 07:49:36.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2013-01-11 09:23:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hantsy/spring-data-build
+  detection_source: Repo Metadata
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.2.5
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Jens Schauder
+  last_updated_on: 2021-08-11 15:34:38.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.20.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-10 07:49:35.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-27 09:33:13.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-27 09:33:13.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-10 07:49:36.000000000 Z
+- name: org.mockito:mockito-junit-jupiter
+  description: Mockito JUnit 5 support
+  version: 3.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-09-27 09:33:13.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2021-04-07 09:06:29.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Jens Schauder
+  last_updated_on: 2021-08-11 15:32:25.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/spring-data-build/blob/main/parent/pom.xml
+  detection_source: parent/pom.xml
+  last_updated_by: Oliver Drotbohm
+  last_updated_on: 2021-09-16 13:15:45.000000000 Z
